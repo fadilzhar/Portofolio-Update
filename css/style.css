@@ -293,3 +293,15 @@ header {
 .gh {
     color: #FEFAE0;
 }
+
+.yt:hover{
+    color: crimson;
+}
+
+.tw:hover{
+    color: rgb(6, 255, 255);
+}
+
+.ig:hover{
+    color: crimson;
+}
