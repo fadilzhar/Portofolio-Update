@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -39,6 +39,10 @@ header {
     width: 100%;
 }
 
+.name h2{
+    font-size: 4vw;
+    text-align: center;
+}
 .logo {
     font-size: 3rem;
     color: #B99470;
@@ -46,6 +50,11 @@ header {
     cursor: default;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.logo img{
+    width: 10rem;
+    z-index: 101;
 }
 
 .navbar a{
@@ -133,20 +142,12 @@ header {
     }
 
 .heading{
-    
+    justify-content:center;
     text-align: center;
     font-size: 4.5rem;
     color: #FEFAE0;
     margin-bottom: 2rem;
 }
-
-.about-content h2{
-    text-align: left;
-    line-height: 1.2;
-    font-size: 2rem;
-    color: #FEFAE0;
-}
-
 .about-content h3{
     font-size: 1.5rem;
     margin: 2rem 0 3rem;
@@ -200,6 +201,7 @@ header {
     color: #FEFAE0;
     font-size: 1.5rem;
     text-decoration: none;
+    text-align:center;
 }
 
 .info a{
@@ -312,3 +314,30 @@ header {
 .ig:hover{
     color: crimson;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+svg {
+	font-family: "Bebas Neue", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 4s infinite alternate;
+	stroke-width: 2;
+	stroke: #3CE82F;
+	font-size: 62px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(112,254,23,0); stroke: rgba(60,232,47,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(112,254,23,0); stroke: rgba(60,232,47,1); }
+	80%  {fill: rgba(112,254,23,0); stroke: rgba(60,232,47,1); stroke-width: 3; }
+	100% {
+		fill: rgba(112,254,23,1); stroke: rgba(60,232,47,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #B99470};
